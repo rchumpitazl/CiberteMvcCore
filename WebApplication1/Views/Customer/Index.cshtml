@@ -1,0 +1,36 @@
+@model IEnumerable<WebApplication1.Models.Customer>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Empleados</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Nombres
+            </th>
+            <th>
+               Apellidos
+            </th>
+            
+            
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                        @item.FirstName
+                </td>
+                <td>
+                        @item.LastName
+                </td>
+               
+                
+            </tr>
+        }
+    </tbody>
+</table>
