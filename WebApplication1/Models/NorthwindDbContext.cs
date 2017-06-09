@@ -1,6 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Cibertec.Models;
+using Microsoft.EntityFrameworkCore;
 
-namespace WebApplication1.Models
+namespace Cibertec.Web.Models
 {
     public class NorthwindDbContext : DbContext
     {

@@ -1,5 +1,5 @@
-﻿namespace WebApplication1.Models
-{
+﻿namespace Cibertec.Models
+{ 
     public class Product
     {
         public int Id { get; set; }

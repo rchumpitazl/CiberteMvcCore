@@ -1,21 +1,22 @@
+using Cibertec.UnitOfWork;
+using Cibertec.Web.Models;
 using Microsoft.AspNetCore.Mvc;
-using WebApplication1.Models;
 
 
 namespace WebApplication1.Controllers
 {
     public class OrderItemController : Controller
     {
-        private readonly NorthwindDbContext _context;
+        private readonly IUnitOfWork _unit;
 
-        public OrderItemController(NorthwindDbContext context)
+        public OrderItemController(IUnitOfWork unit)
         {
-            _context = context;
+            _unit = unit;
         }
 
         public IActionResult Index()
         {
-            return View(_context.OrderItems);
+            return View(_unit.OrderItems.GetAll());
         }
     }
 }

@@ -7,8 +7,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using WebApplication1.Models;
 using Microsoft.EntityFrameworkCore;
+using Cibertec.Web.Models;
+using Cibertec.UnitOfWork;
 
 namespace WebApplication1
 {
@@ -30,9 +31,14 @@ namespace WebApplication1
         public void ConfigureServices(IServiceCollection services)
         {
             // Add framework services.
-            services.AddDbContext<NorthwindDbContext>(
-                options =>
-            options.UseSqlServer(Configuration.GetConnectionString("Nothwind")));
+           
+            services.AddTransient<IUnitOfWork>(
+                option => new EFUnitOfWork(
+                    new NorthwindDbContext(
+                        new DbContextOptionsBuilder<NorthwindDbContext>()
+                        .UseSqlServer(Configuration.GetConnectionString("Nothwind")).
+                        Options
+                )));
             services.AddMvc();
 
         }

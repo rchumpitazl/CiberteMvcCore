@@ -26,5 +26,9 @@
     <Folder Include="Views\Customer\" />
     <Folder Include="Views\Supplier\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cibertec.Models\Cibertec.Models.csproj" />
+    <ProjectReference Include="..\Cibertec.UnitOfWork\Cibertec.UnitOfWork.csproj" />
+  </ItemGroup>
 
 </Project>
