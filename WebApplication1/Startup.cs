@@ -31,14 +31,17 @@ namespace WebApplication1
         public void ConfigureServices(IServiceCollection services)
         {
             // Add framework services.
-           
-            services.AddTransient<IUnitOfWork>(
+
+            /*services.AddTransient<IUnitOfWork>(
                 option => new EFUnitOfWork(
                     new NorthwindDbContext(
                         new DbContextOptionsBuilder<NorthwindDbContext>()
                         .UseSqlServer(Configuration.GetConnectionString("Nothwind")).
                         Options
-                )));
+                )));*/
+            services.AddSingleton<IUnitOfWork>(
+                option => new CibertecUnitOfWork(Configuration.GetConnectionString("Nothwind"))
+                );
             services.AddMvc();
 
         }
