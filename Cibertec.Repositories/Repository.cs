@@ -8,13 +8,13 @@ namespace Cibertec.Repositories
 {
     public class Repository<T> : IRepository<T> where T : class
     {
-        private readonly string _connectionString;
+        protected readonly string _connectionString;
 
         public Repository(string connectionString)
         {
             SqlMapperExtensions.TableNameMapper = (type) =>
             {
-                return type.Name;
+                return $"[{type.Name}]";
             };
             _connectionString = connectionString;
         }
@@ -32,6 +32,14 @@ namespace Cibertec.Repositories
             using (var connection = new SqlConnection(_connectionString))
             {
                 return connection.GetAll<T>();
+            }
+        }
+
+        public T GetEntityById(int id)
+        {
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                return connection.Get<T>(id);
             }
         }
 

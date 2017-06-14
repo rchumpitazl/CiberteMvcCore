@@ -1,32 +1,31 @@
-@model IEnumerable<Cibertec.Models.Customer>
+@model Cibertec.Models.Customer
 @{
     ViewData["Title"] = "Index";
 }
 
-<h2>Empleados</h2>
+<h2>Detalle de Empleado</h2>
 
 <table class="table">
     <thead>
         <tr>
             <th>
-               @Html.DisplayNameFor(model => model.FirstName)
+                Nombres
             </th>
             <th>
-               @Html.DisplayNameFor(model => model.LastName)
+               Apellidos
             </th> 
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model)
-        {
+       
             <tr>
                 <td>
-                        @item.FirstName
+                        @Model.FirstName
                 </td>
                 <td>
-                        @item.LastName
+                        @Model.LastName
                 </td>
             </tr>
-        }
+        
     </tbody>
 </table>

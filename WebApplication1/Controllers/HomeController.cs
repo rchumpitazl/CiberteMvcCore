@@ -1,7 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Cibertec.Web.Filters;
+using Microsoft.AspNetCore.Mvc;
+using System;
 
 namespace WebApplication1.Controllers
 {
+    [ExceptionLoggerFilter]
     public class HomeController : Controller
     {
         public IActionResult Index()
@@ -26,6 +29,12 @@ namespace WebApplication1.Controllers
         public IActionResult Error()
         {
             return View();
+        }
+
+        [Route("home/issue")]
+        public IActionResult CreateIssue()
+        {
+            throw new Exception("New error");
         }
     }
 }
