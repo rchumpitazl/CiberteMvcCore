@@ -2,6 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp1.1</TargetFramework>
+	<DebugType>full</DebugType>
+	<DebugSymbols>True</DebugSymbols>
+
   </PropertyGroup>
 
 </Project>

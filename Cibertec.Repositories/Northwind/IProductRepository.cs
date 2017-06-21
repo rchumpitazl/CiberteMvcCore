@@ -2,7 +2,7 @@
 
 namespace Cibertec.Repositories.Northwind
 {
-    public interface IProductRepository : IRepository<Product>
+    public interface IProductRepository:IRepository<Product>
     {
         Product ByProductName(string productname);
     }

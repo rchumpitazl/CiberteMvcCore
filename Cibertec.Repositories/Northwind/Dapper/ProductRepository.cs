@@ -4,7 +4,7 @@ using System.Data.SqlClient;
 
 namespace Cibertec.Repositories.Northwind.Dapper
 {
-    public class ProductRepository : Repository<Product>, IProductRepository
+    public class ProductRepository:Repository<Product>, IProductRepository
     {
 
         public ProductRepository(string connectionString):base(connectionString)
