@@ -1,10 +1,10 @@
-ï»¿using Cibertec.Models;
+using Cibertec.Models;
 using Cibertec.UnitOfWork;
 using Moq;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Cibertec.Repositories.Tests
+namespace Cibertec.MockData
 {
     public static class MockedUnitOfWork
     {
@@ -26,7 +26,7 @@ namespace Cibertec.Repositories.Tests
                     {
                         Id= 1,
                         City = "Lima",
-                        Country = "PerÃº",
+                        Country = "Perú",
                         FirstName = "Edinson",
                         LastName = "Chumpitaz",
                         Phone = "555-5555",
@@ -36,7 +36,7 @@ namespace Cibertec.Repositories.Tests
                     {
                         Id= 2,
                         City = "Lima",
-                        Country = "PerÃº",
+                        Country = "Perú",
                         FirstName = "Raul",
                         LastName = "Huaman",
                         Phone = "666-6666",
@@ -55,14 +55,14 @@ namespace Cibertec.Repositories.Tests
             mock.Setup(c => c.Customers.Delete(It.IsAny<Customer>())).Returns(true);
             mock.Setup(c => c.Customers.SearchByNames(It.IsAny<string>(), It.IsAny<string>())).
                 Returns(
-                    (string firstName, string lastName) => 
+                    (string firstName, string lastName) =>
                     {
                         return customerList.FirstOrDefault(x => x.FirstName == firstName &&
                         x.LastName == lastName);
                     }
                 );
-            
-            
+
+
             return mock;
         }
     }
