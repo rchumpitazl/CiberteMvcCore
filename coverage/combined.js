@@ -336,7 +336,7 @@ var assemblies = [
     "name" : "Cibertec.UnitOfWork",
     "classes" : [
     {  "name" : "Cibertec.UnitOfWork.CibertecUnitOfWork", "reportPath" : "Cibertec.UnitOfWork_CibertecUnitOfWork.htm", "coveredLines" : 0, "uncoveredLines" : 12, "coverableLines" : 12, "totalLines" : 25, "coverageType" : "LineCoverage", "methodCoverage" : "-", "coveredBranches" : 0, "totalBranches" : 0, "lineCoverageHistory" : [], "branchCoverageHistory" : [] },
-    {  "name" : "Cibertec.UnitOfWork.EFUnitOfWork", "reportPath" : "Cibertec.UnitOfWork_EFUnitOfWork.htm", "coveredLines" : 0, "uncoveredLines" : 12, "coverableLines" : 12, "totalLines" : 26, "coverageType" : "LineCoverage", "methodCoverage" : "-", "coveredBranches" : 0, "totalBranches" : 0, "lineCoverageHistory" : [], "branchCoverageHistory" : [] },
+    {  "name" : "Cibertec.UnitOfWork.EFUnitOfWork", "reportPath" : "Cibertec.UnitOfWork_EFUnitOfWork.htm", "coveredLines" : 0, "uncoveredLines" : 11, "coverableLines" : 11, "totalLines" : 28, "coverageType" : "LineCoverage", "methodCoverage" : "-", "coveredBranches" : 0, "totalBranches" : 0, "lineCoverageHistory" : [], "branchCoverageHistory" : [] },
   ]},
 ];
 

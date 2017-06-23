@@ -15,26 +15,50 @@ namespace Cibertec.Repositories.Tests
             //_unit = new CibertecUnitOfWork(ConfigSettings.ConnectionString);
             _unit = MockedUnitOfWork.GetUnitOfWork();
         }
-        [Fact(DisplayName = "[CustomerRepositoryTests] Get All Customer")]
-        public void test1()
+        [Fact(DisplayName = "First Unit Test")]
+        public void First_Unit_Test()
         {
-            var result = _unit.Customers.GetAll();
-            result.Should().NotBeNull();
-            result.Count().Should().BeGreaterThan(0);
+            var customer = _unit.Customers.GetEntityById(1);
+            customer.Should().NotBeNull();
+        }
+
+        [Fact(DisplayName = "Get All Test")]
+        public void Customer_Get_All()
+        {
+            var customerList = _unit.Customers.GetAll().ToList();
+            customerList.Should().NotBeNull();
+            customerList.Count.Should().BeGreaterThan(0);
+            customerList.Count.Should().Be(2);
         }
 
         
-        [Fact(DisplayName = "[CustomerRepositoryTests] Insert Customer")]
-        public void test3()
-        {
-            var result = _unit.Customers.Insert(null);
-            result.Should().BeGreaterThan(0);
-        }
-        [Fact(DisplayName = "[CustomerRepositoryTests] Fail Insert Customer")]
-        public void test4()
+        [Fact(DisplayName = "Customer Insert Test")]
+        public void Customer_Insert()
         {
             var result = _unit.Customers.Insert(new Customer());
-            result.Should().Be(0);
+            result.Should().BeGreaterThan(0);
+        }
+
+        [Fact(DisplayName = "Customer Update Test")]
+        public void Customer_Update()
+        {
+            var result = _unit.Customers.Update(new Customer());
+            result.Should().BeTrue();
+        }
+        [Fact(DisplayName = "Customer Delete Test")]
+        public void Customer_Delete()
+        {
+            var result = _unit.Customers.Delete(new Customer());
+            result.Should().BeTrue();
+        }
+        [Theory(DisplayName = "Customer Search by Test")]
+        [InlineData("Edinson", "Chumpitaz")]
+        [InlineData("Raul", "Huaman")]
+        [InlineData("Alan", "Garcia")]
+        public void Customer_SearchByName(string firstName,string lastName)
+        {
+            var result = _unit.Customers.SearchByNames(firstName, lastName);
+            result.Should().NotBeNull();
         }
     }
 }

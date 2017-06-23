@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Summary numSequencePoints="176" visitedSequencePoints="8" numBranchPoints="119" visitedBranchPoints="8" sequenceCoverage="4.55" branchCoverage="6.72" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="1" numClasses="16" visitedMethods="8" numMethods="119" />
+  <Summary numSequencePoints="175" visitedSequencePoints="8" numBranchPoints="119" visitedBranchPoints="8" sequenceCoverage="4.57" branchCoverage="6.72" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="1" numClasses="16" visitedMethods="8" numMethods="119" />
   <Modules>
     <Module skippedDueTo="Filter" hash="F6-70-5A-4A-3D-3B-8F-AB-38-1B-F7-15-8E-65-3E-CC-49-18-6A-EB">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Private.CoreLib.ni.dll</ModulePath>
@@ -275,17 +275,17 @@
       <Files />
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="F6-70-5A-4A-3D-3B-8F-AB-38-1B-F7-15-8E-65-3E-CC-49-18-6A-EB">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Private.CoreLib.ni.dll</ModulePath>
-      <ModuleTime>2017-04-28T17:14:44Z</ModuleTime>
-      <ModuleName>System.Private.CoreLib</ModuleName>
-      <Files />
-      <Classes />
-    </Module>
     <Module skippedDueTo="Filter" hash="95-31-50-64-C3-65-6D-48-52-4C-C6-2C-74-B2-97-E9-97-84-AD-8A">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Diagnostics.Tools.dll</ModulePath>
       <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
       <ModuleName>System.Diagnostics.Tools</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F6-70-5A-4A-3D-3B-8F-AB-38-1B-F7-15-8E-65-3E-CC-49-18-6A-EB">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Private.CoreLib.ni.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:44Z</ModuleTime>
+      <ModuleName>System.Private.CoreLib</ModuleName>
       <Files />
       <Classes />
     </Module>
@@ -307,6 +307,34 @@
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Text.Encoding.Extensions.dll</ModulePath>
       <ModuleTime>2017-04-28T17:14:44Z</ModuleTime>
       <ModuleName>System.Text.Encoding.Extensions</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="14-B7-8E-89-03-6B-78-3E-65-DB-01-95-27-A3-32-28-1E-E1-0E-99">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Net.Http.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Net.Http</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="34-85-75-44-A7-36-1B-6D-22-E4-EA-F9-09-00-64-27-00-C0-D3-0B">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Net.Primitives.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Net.Primitives</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="5A-10-EA-53-BB-1B-3C-B2-46-74-D0-23-43-23-B3-38-78-63-91-7A">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Diagnostics.DiagnosticSource.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Diagnostics.DiagnosticSource</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="21-C9-8D-C8-5E-B8-B6-CC-1F-B3-BD-23-47-20-71-4E-30-6B-56-9B">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Security.Cryptography.X509Certificates.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:44Z</ModuleTime>
+      <ModuleName>System.Security.Cryptography.X509Certificates</ModuleName>
       <Files />
       <Classes />
     </Module>
@@ -338,13 +366,6 @@
       <Files />
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="14-B7-8E-89-03-6B-78-3E-65-DB-01-95-27-A3-32-28-1E-E1-0E-99">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Net.Http.dll</ModulePath>
-      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
-      <ModuleName>System.Net.Http</ModuleName>
-      <Files />
-      <Classes />
-    </Module>
     <Module skippedDueTo="Filter" hash="55-88-D6-46-7F-54-65-DB-60-06-A3-82-60-D8-40-FB-BC-EC-D5-81">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Reflection.dll</ModulePath>
       <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
@@ -356,27 +377,6 @@
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Reflection.TypeExtensions.dll</ModulePath>
       <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
       <ModuleName>System.Reflection.TypeExtensions</ModuleName>
-      <Files />
-      <Classes />
-    </Module>
-    <Module skippedDueTo="Filter" hash="34-85-75-44-A7-36-1B-6D-22-E4-EA-F9-09-00-64-27-00-C0-D3-0B">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Net.Primitives.dll</ModulePath>
-      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
-      <ModuleName>System.Net.Primitives</ModuleName>
-      <Files />
-      <Classes />
-    </Module>
-    <Module skippedDueTo="Filter" hash="5A-10-EA-53-BB-1B-3C-B2-46-74-D0-23-43-23-B3-38-78-63-91-7A">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Diagnostics.DiagnosticSource.dll</ModulePath>
-      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
-      <ModuleName>System.Diagnostics.DiagnosticSource</ModuleName>
-      <Files />
-      <Classes />
-    </Module>
-    <Module skippedDueTo="Filter" hash="21-C9-8D-C8-5E-B8-B6-CC-1F-B3-BD-23-47-20-71-4E-30-6B-56-9B">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Security.Cryptography.X509Certificates.dll</ModulePath>
-      <ModuleTime>2017-04-28T17:14:44Z</ModuleTime>
-      <ModuleName>System.Security.Cryptography.X509Certificates</ModuleName>
       <Files />
       <Classes />
     </Module>
@@ -1045,27 +1045,6 @@
       <Files />
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="B2-79-8E-42-79-66-46-E5-BB-FA-80-DB-A4-98-64-E6-F3-34-CE-87">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Collections.Concurrent.dll</ModulePath>
-      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
-      <ModuleName>System.Collections.Concurrent</ModuleName>
-      <Files />
-      <Classes />
-    </Module>
-    <Module skippedDueTo="Filter" hash="3B-D7-1E-C0-84-4C-02-CB-97-4A-8E-2A-A0-0A-52-F7-08-D3-F0-8A">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Reflection.Extensions.dll</ModulePath>
-      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
-      <ModuleName>System.Reflection.Extensions</ModuleName>
-      <Files />
-      <Classes />
-    </Module>
-    <Module skippedDueTo="Filter" hash="56-E7-FE-76-AE-7C-2C-1F-18-49-23-EF-CB-03-07-CF-59-B2-70-00">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Resources.ResourceManager.dll</ModulePath>
-      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
-      <ModuleName>System.Resources.ResourceManager</ModuleName>
-      <Files />
-      <Classes />
-    </Module>
     <Module skippedDueTo="Filter" hash="92-3A-A0-1E-C0-A4-51-94-88-6C-76-D2-0F-2B-EF-F7-25-4B-F7-9E">
       <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\MSBuild.dll</ModulePath>
       <ModuleTime>2017-05-04T20:17:42Z</ModuleTime>
@@ -1087,6 +1066,13 @@
       <Files />
       <Classes />
     </Module>
+    <Module skippedDueTo="Filter" hash="B2-79-8E-42-79-66-46-E5-BB-FA-80-DB-A4-98-64-E6-F3-34-CE-87">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Collections.Concurrent.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Collections.Concurrent</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
     <Module skippedDueTo="Filter" hash="0A-1B-46-F2-8B-9B-C4-F3-5E-D4-87-5E-F5-35-40-B9-57-F5-74-DA">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Threading.dll</ModulePath>
       <ModuleTime>2017-04-28T17:14:44Z</ModuleTime>
@@ -1105,6 +1091,20 @@
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Reflection.TypeExtensions.dll</ModulePath>
       <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
       <ModuleName>System.Reflection.TypeExtensions</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="3B-D7-1E-C0-84-4C-02-CB-97-4A-8E-2A-A0-0A-52-F7-08-D3-F0-8A">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Reflection.Extensions.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Reflection.Extensions</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="56-E7-FE-76-AE-7C-2C-1F-18-49-23-EF-CB-03-07-CF-59-B2-70-00">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Resources.ResourceManager.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Resources.ResourceManager</ModuleName>
       <Files />
       <Classes />
     </Module>
@@ -1283,17 +1283,17 @@
       <Files />
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="0C-9C-6E-C8-BB-14-8F-D9-84-AB-05-C3-62-92-0B-D2-DD-A3-CF-F7">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.ObjectModel.dll</ModulePath>
-      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
-      <ModuleName>System.ObjectModel</ModuleName>
-      <Files />
-      <Classes />
-    </Module>
     <Module skippedDueTo="Filter" hash="2C-C0-50-46-90-A8-A1-D6-EB-02-51-A8-52-5F-72-2B-B6-9E-3B-06">
       <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\Microsoft.Build.Utilities.Core.dll</ModulePath>
       <ModuleTime>2017-05-04T20:17:40Z</ModuleTime>
       <ModuleName>Microsoft.Build.Utilities.Core</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0C-9C-6E-C8-BB-14-8F-D9-84-AB-05-C3-62-92-0B-D2-DD-A3-CF-F7">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.ObjectModel.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.ObjectModel</ModuleName>
       <Files />
       <Classes />
     </Module>
@@ -1318,6 +1318,13 @@
       <Files />
       <Classes />
     </Module>
+    <Module skippedDueTo="Filter" hash="DB-31-91-3E-EF-62-EE-BA-70-0F-41-1A-18-51-FD-2C-81-39-93-7C">
+      <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\System.Collections.Immutable.dll</ModulePath>
+      <ModuleTime>2017-05-04T20:17:42Z</ModuleTime>
+      <ModuleName>System.Collections.Immutable</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
     <Module skippedDueTo="Filter" hash="3B-D7-1E-C0-84-4C-02-CB-97-4A-8E-2A-A0-0A-52-F7-08-D3-F0-8A">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Reflection.Extensions.dll</ModulePath>
       <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
@@ -1329,13 +1336,6 @@
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Resources.ResourceManager.dll</ModulePath>
       <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
       <ModuleName>System.Resources.ResourceManager</ModuleName>
-      <Files />
-      <Classes />
-    </Module>
-    <Module skippedDueTo="Filter" hash="DB-31-91-3E-EF-62-EE-BA-70-0F-41-1A-18-51-FD-2C-81-39-93-7C">
-      <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\System.Collections.Immutable.dll</ModulePath>
-      <ModuleTime>2017-05-04T20:17:42Z</ModuleTime>
-      <ModuleName>System.Collections.Immutable</ModuleName>
       <Files />
       <Classes />
     </Module>
@@ -1360,17 +1360,17 @@
       <Files />
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="BC-CE-1D-B5-26-1A-F7-ED-59-2F-FB-AB-2E-B3-35-FE-4C-63-0C-F7">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Reflection.Primitives.dll</ModulePath>
-      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
-      <ModuleName>System.Reflection.Primitives</ModuleName>
-      <Files />
-      <Classes />
-    </Module>
     <Module skippedDueTo="Filter" hash="F3-70-6B-67-DF-E6-5C-1D-D6-F8-AB-B5-FA-33-AD-F0-00-C9-34-CB">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Runtime.Loader.dll</ModulePath>
       <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
       <ModuleName>System.Runtime.Loader</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BC-CE-1D-B5-26-1A-F7-ED-59-2F-FB-AB-2E-B3-35-FE-4C-63-0C-F7">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Reflection.Primitives.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Reflection.Primitives</ModuleName>
       <Files />
       <Classes />
     </Module>
@@ -1388,17 +1388,17 @@
       <Files />
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="2C-C0-50-46-90-A8-A1-D6-EB-02-51-A8-52-5F-72-2B-B6-9E-3B-06">
-      <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\Microsoft.Build.Utilities.Core.dll</ModulePath>
-      <ModuleTime>2017-05-04T20:17:40Z</ModuleTime>
-      <ModuleName>Microsoft.Build.Utilities.Core</ModuleName>
-      <Files />
-      <Classes />
-    </Module>
     <Module skippedDueTo="Filter" hash="00-5E-6D-65-9F-28-A8-8E-D5-F6-0E-D4-80-65-55-EF-CE-E0-2B-01">
       <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\Microsoft.Build.Tasks.Core.dll</ModulePath>
       <ModuleTime>2017-05-04T20:17:40Z</ModuleTime>
       <ModuleName>Microsoft.Build.Tasks.Core</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2C-C0-50-46-90-A8-A1-D6-EB-02-51-A8-52-5F-72-2B-B6-9E-3B-06">
+      <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\Microsoft.Build.Utilities.Core.dll</ModulePath>
+      <ModuleTime>2017-05-04T20:17:40Z</ModuleTime>
+      <ModuleName>Microsoft.Build.Utilities.Core</ModuleName>
       <Files />
       <Classes />
     </Module>
@@ -1430,13 +1430,6 @@
       <Files />
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="DB-31-91-3E-EF-62-EE-BA-70-0F-41-1A-18-51-FD-2C-81-39-93-7C">
-      <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\System.Collections.Immutable.dll</ModulePath>
-      <ModuleTime>2017-05-04T20:17:42Z</ModuleTime>
-      <ModuleName>System.Collections.Immutable</ModuleName>
-      <Files />
-      <Classes />
-    </Module>
     <Module skippedDueTo="Filter" hash="C0-D8-45-31-3B-9C-4A-3F-E2-70-00-F7-00-97-BB-C9-87-01-BA-45">
       <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\NuGet.Frameworks.dll</ModulePath>
       <ModuleTime>2017-05-04T20:17:42Z</ModuleTime>
@@ -1448,6 +1441,13 @@
       <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\NuGet.Versioning.dll</ModulePath>
       <ModuleTime>2017-05-04T20:17:42Z</ModuleTime>
       <ModuleName>NuGet.Versioning</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="DB-31-91-3E-EF-62-EE-BA-70-0F-41-1A-18-51-FD-2C-81-39-93-7C">
+      <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\System.Collections.Immutable.dll</ModulePath>
+      <ModuleTime>2017-05-04T20:17:42Z</ModuleTime>
+      <ModuleName>System.Collections.Immutable</ModuleName>
       <Files />
       <Classes />
     </Module>
@@ -1514,17 +1514,17 @@
       <Files />
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="00-5E-6D-65-9F-28-A8-8E-D5-F6-0E-D4-80-65-55-EF-CE-E0-2B-01">
-      <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\Microsoft.Build.Tasks.Core.dll</ModulePath>
-      <ModuleTime>2017-05-04T20:17:40Z</ModuleTime>
-      <ModuleName>Microsoft.Build.Tasks.Core</ModuleName>
-      <Files />
-      <Classes />
-    </Module>
     <Module skippedDueTo="Filter" hash="AB-13-45-4D-B0-F4-50-D1-05-4D-4B-20-4A-38-91-7D-70-F7-0C-D8">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Threading.ThreadPool.dll</ModulePath>
       <ModuleTime>2017-04-28T17:14:44Z</ModuleTime>
       <ModuleName>System.Threading.ThreadPool</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="00-5E-6D-65-9F-28-A8-8E-D5-F6-0E-D4-80-65-55-EF-CE-E0-2B-01">
+      <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\Microsoft.Build.Tasks.Core.dll</ModulePath>
+      <ModuleTime>2017-05-04T20:17:40Z</ModuleTime>
+      <ModuleName>Microsoft.Build.Tasks.Core</ModuleName>
       <Files />
       <Classes />
     </Module>
@@ -1577,6 +1577,13 @@
       <Files />
       <Classes />
     </Module>
+    <Module skippedDueTo="Filter" hash="90-C4-B0-76-CC-5D-95-44-F4-66-F9-9C-07-FF-B1-67-42-92-04-F7">
+      <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\System.Reflection.Metadata.dll</ModulePath>
+      <ModuleTime>2017-05-04T20:17:42Z</ModuleTime>
+      <ModuleName>System.Reflection.Metadata</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
     <Module skippedDueTo="Filter" hash="21-96-02-7D-6F-14-12-55-D9-7E-E3-F5-D7-38-21-09-DF-98-E9-88">
       <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\NuGet.LibraryModel.dll</ModulePath>
       <ModuleTime>2017-05-04T20:17:42Z</ModuleTime>
@@ -1598,20 +1605,6 @@
       <Files />
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="90-C4-B0-76-CC-5D-95-44-F4-66-F9-9C-07-FF-B1-67-42-92-04-F7">
-      <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\System.Reflection.Metadata.dll</ModulePath>
-      <ModuleTime>2017-05-04T20:17:42Z</ModuleTime>
-      <ModuleName>System.Reflection.Metadata</ModuleName>
-      <Files />
-      <Classes />
-    </Module>
-    <Module skippedDueTo="Filter" hash="C8-79-5B-B1-CD-2D-1C-1E-B3-60-B0-0A-AD-AD-19-80-70-7C-AC-BF">
-      <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\NuGet.Configuration.dll</ModulePath>
-      <ModuleTime>2017-05-04T20:17:42Z</ModuleTime>
-      <ModuleName>NuGet.Configuration</ModuleName>
-      <Files />
-      <Classes />
-    </Module>
     <Module skippedDueTo="Filter" hash="96-56-69-A3-E0-D9-40-CE-59-42-D4-C5-D9-A2-8D-F4-42-E9-25-0F">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.IO.MemoryMappedFiles.dll</ModulePath>
       <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
@@ -1623,6 +1616,13 @@
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.IO.UnmanagedMemoryStream.dll</ModulePath>
       <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
       <ModuleName>System.IO.UnmanagedMemoryStream</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C8-79-5B-B1-CD-2D-1C-1E-B3-60-B0-0A-AD-AD-19-80-70-7C-AC-BF">
+      <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\NuGet.Configuration.dll</ModulePath>
+      <ModuleTime>2017-05-04T20:17:42Z</ModuleTime>
+      <ModuleName>NuGet.Configuration</ModuleName>
       <Files />
       <Classes />
     </Module>
@@ -1658,6 +1658,321 @@
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Security.Cryptography.Primitives.dll</ModulePath>
       <ModuleTime>2017-04-28T17:14:44Z</ModuleTime>
       <ModuleName>System.Security.Cryptography.Primitives</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E4-69-FB-EC-7F-48-20-0B-F8-65-F9-13-26-73-20-C8-24-B7-B8-E2">
+      <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\Roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll</ModulePath>
+      <ModuleTime>2017-05-04T20:17:40Z</ModuleTime>
+      <ModuleName>Microsoft.Build.Tasks.CodeAnalysis</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="EE-E1-9F-3E-08-A6-4E-D8-CF-28-3A-78-2F-F2-E9-16-5D-FD-7C-42">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Security.Principal.Windows.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:44Z</ModuleTime>
+      <ModuleName>System.Security.Principal.Windows</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="92-0C-0D-A5-48-27-EC-43-CE-FF-32-D3-EA-9A-A3-18-F6-7F-E8-DE">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Security.Claims.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Security.Claims</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E7-C5-FA-C1-20-0B-1A-25-54-82-25-B9-AE-70-35-88-24-5F-4B-6C">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Security.Principal.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:44Z</ModuleTime>
+      <ModuleName>System.Security.Principal</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="88-1B-B7-69-15-E8-07-F7-F7-98-D6-55-29-24-DF-38-0A-E3-E5-37">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Threading.Timer.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:44Z</ModuleTime>
+      <ModuleName>System.Threading.Timer</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F6-70-5A-4A-3D-3B-8F-AB-38-1B-F7-15-8E-65-3E-CC-49-18-6A-EB">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Private.CoreLib.ni.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:44Z</ModuleTime>
+      <ModuleName>System.Private.CoreLib</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="8F-BA-13-15-5D-29-5B-98-94-A1-C4-EA-B5-D4-84-18-47-FD-AF-F0">
+      <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\Roslyn\csc.exe</ModulePath>
+      <ModuleTime>2017-05-04T20:17:40Z</ModuleTime>
+      <ModuleName>csc</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="10-F6-CF-D1-77-DC-83-45-0F-A7-94-89-E8-58-1A-94-0F-2D-39-99">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Runtime.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="27-FD-01-1F-7F-91-44-AA-26-6D-B2-BA-60-A7-6F-B8-A6-7B-C4-87">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\mscorlib.dll</ModulePath>
+      <ModuleTime>2017-04-11T15:56:10Z</ModuleTime>
+      <ModuleName>mscorlib</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="FC-FC-7C-CB-A6-4B-45-F9-39-2C-96-5D-60-A5-6E-21-D0-06-ED-AD">
+      <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\Roslyn\Microsoft.CodeAnalysis.dll</ModulePath>
+      <ModuleTime>2017-05-04T20:17:40Z</ModuleTime>
+      <ModuleName>Microsoft.CodeAnalysis</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BB-EF-8C-24-ED-B5-84-E0-F1-B9-F8-73-AC-85-3C-05-A0-D5-82-7F">
+      <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\Roslyn\Microsoft.CodeAnalysis.CSharp.dll</ModulePath>
+      <ModuleTime>2017-05-04T20:17:40Z</ModuleTime>
+      <ModuleName>Microsoft.CodeAnalysis.CSharp</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="78-5D-99-A3-90-D6-7D-1F-16-D9-6A-06-F5-95-F6-71-7F-58-02-21">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.IO.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.IO</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2E-39-08-79-1D-C2-AA-88-46-E8-43-52-C6-3E-D7-EE-D5-96-CD-89">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Threading.Tasks.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:44Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="3A-00-0E-75-2F-9C-E7-AD-35-F2-AC-57-1C-25-FD-18-75-65-13-F1">
+      <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\Roslyn\System.Collections.Immutable.dll</ModulePath>
+      <ModuleTime>2017-05-04T20:17:42Z</ModuleTime>
+      <ModuleName>System.Collections.Immutable</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="69-74-54-38-65-8F-5E-25-7D-73-E4-86-34-E9-E0-BE-CD-BF-2C-3F">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Collections.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Collections</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BA-C5-27-BE-93-08-CB-1F-DF-66-AD-24-E4-1F-0F-9E-29-D3-62-86">
+      <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\Roslyn\runtimes\win\lib\netstandard1.3\System.Text.Encoding.CodePages.dll</ModulePath>
+      <ModuleTime>2017-05-04T20:17:42Z</ModuleTime>
+      <ModuleName>System.Text.Encoding.CodePages</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="82-AA-AB-21-2D-1F-5A-5D-76-88-BC-99-D2-AE-5F-27-5E-DE-40-3E">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Text.Encoding.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:44Z</ModuleTime>
+      <ModuleName>System.Text.Encoding</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="84-8C-9D-01-05-23-E5-1B-ED-E4-38-4D-23-48-BB-27-E3-CA-C3-A6">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.AppContext.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.AppContext</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="DB-F6-C2-1A-63-0D-74-B8-1B-CC-5D-59-8D-EA-2C-09-55-13-40-1D">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.IO.FileSystem.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.IO.FileSystem</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="47-FA-BA-22-0D-94-47-3C-1E-3F-37-5C-92-22-E2-D7-C4-D6-3B-98">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Runtime.Extensions.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Runtime.Extensions</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0A-1B-46-F2-8B-9B-C4-F3-5E-D4-87-5E-F5-35-40-B9-57-F5-74-DA">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Threading.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:44Z</ModuleTime>
+      <ModuleName>System.Threading</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="78-80-49-A8-7E-78-47-11-2F-9D-DF-26-A7-C7-23-0B-07-D3-78-A0">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.IO.FileSystem.Primitives.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.IO.FileSystem.Primitives</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="64-11-3C-D9-70-FD-86-06-19-E7-CE-BB-44-52-18-81-48-85-9C-CA">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Linq.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Linq</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="D8-9C-DB-90-B6-A6-96-ED-46-4A-C7-83-61-D8-89-3C-5D-D0-66-B7">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Console.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Console</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="55-88-D6-46-7F-54-65-DB-60-06-A3-82-60-D8-40-FB-BC-EC-D5-81">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Reflection.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Reflection</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E3-3A-F1-CA-2D-90-BC-45-47-78-DC-4D-07-A5-90-1A-74-68-AC-FE">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Runtime.InteropServices.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Runtime.InteropServices</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="34-9D-BB-FA-81-DE-34-62-81-3C-68-2E-DC-4F-D3-D4-0F-DC-3F-80">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Runtime.Handles.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Runtime.Handles</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F3-70-6B-67-DF-E6-5C-1D-D6-F8-AB-B5-FA-33-AD-F0-00-C9-34-CB">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Runtime.Loader.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Runtime.Loader</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="6C-69-37-07-42-15-E1-41-36-7E-A8-CD-A5-6A-B0-A5-3F-62-F6-B8">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Globalization.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Globalization</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="CA-74-B4-AB-C7-7A-DB-9A-F2-69-C6-79-CD-5C-66-81-33-08-D1-39">
+      <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\Roslyn\System.Reflection.Metadata.dll</ModulePath>
+      <ModuleTime>2017-05-04T20:17:42Z</ModuleTime>
+      <ModuleName>System.Reflection.Metadata</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="CC-99-C9-08-66-31-C3-65-73-4B-3D-54-80-D9-17-F0-A3-79-96-74">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Text.Encoding.Extensions.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:44Z</ModuleTime>
+      <ModuleName>System.Text.Encoding.Extensions</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="1D-ED-DF-42-56-DD-12-67-EF-C3-94-70-2D-FA-AB-57-2A-97-6B-5B">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Threading.Tasks.Parallel.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:44Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks.Parallel</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="3A-59-23-69-14-25-FD-1A-2B-F8-46-11-A9-A9-27-E3-DB-04-E6-3A">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Diagnostics.Tracing.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Diagnostics.Tracing</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B2-79-8E-42-79-66-46-E5-BB-FA-80-DB-A4-98-64-E6-F3-34-CE-87">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Collections.Concurrent.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Collections.Concurrent</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="FC-53-73-D5-A9-A9-31-6A-68-BA-1B-85-DC-CC-1A-6A-F6-F6-A8-F0">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Security.Cryptography.Algorithms.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Security.Cryptography.Algorithms</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="FA-EA-A5-46-19-4B-AF-1D-DA-8A-8A-47-88-8A-67-46-94-5F-D6-A1">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Security.Cryptography.Primitives.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:44Z</ModuleTime>
+      <ModuleName>System.Security.Cryptography.Primitives</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="62-56-58-9C-7D-68-DC-09-25-7F-67-D7-3F-DB-45-53-37-44-D0-9C">
+      <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\Roslyn\System.ValueTuple.dll</ModulePath>
+      <ModuleTime>2017-05-04T20:17:42Z</ModuleTime>
+      <ModuleName>System.ValueTuple</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BC-CE-1D-B5-26-1A-F7-ED-59-2F-FB-AB-2E-B3-35-FE-4C-63-0C-F7">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Reflection.Primitives.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Reflection.Primitives</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="96-56-69-A3-E0-D9-40-CE-59-42-D4-C5-D9-A2-8D-F4-42-E9-25-0F">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.IO.MemoryMappedFiles.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.IO.MemoryMappedFiles</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="79-27-A4-64-B0-4E-8F-BF-E1-BA-32-B2-E3-0B-1E-20-BD-35-3C-CB">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.IO.UnmanagedMemoryStream.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.IO.UnmanagedMemoryStream</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="3B-D7-1E-C0-84-4C-02-CB-97-4A-8E-2A-A0-0A-52-F7-08-D3-F0-8A">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Reflection.Extensions.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Reflection.Extensions</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="75-2D-BA-9C-C0-5B-7B-F5-85-48-B7-3F-33-18-41-50-49-80-1F-35">
+      <ModulePath>C:\Users\NetWeb-MJ\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.Analyzers.dll</ModulePath>
+      <ModuleTime>2017-05-31T03:17:58Z</ModuleTime>
+      <ModuleName>Microsoft.CodeAnalysis.Analyzers</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F8-13-77-B6-9D-92-C4-91-70-80-E2-B5-03-D2-EA-53-8A-A3-0E-EB">
+      <ModulePath>C:\Users\NetWeb-MJ\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll</ModulePath>
+      <ModuleTime>2017-05-31T03:17:58Z</ModuleTime>
+      <ModuleName>Microsoft.CodeAnalysis.CSharp.Analyzers</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="56-E7-FE-76-AE-7C-2C-1F-18-49-23-EF-CB-03-07-CF-59-B2-70-00">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Resources.ResourceManager.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Resources.ResourceManager</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="54-EA-BB-3A-EC-62-4C-13-11-58-A6-B9-AB-E5-E8-E8-31-3D-87-D7">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Runtime.Numerics.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Runtime.Numerics</ModuleName>
       <Files />
       <Classes />
     </Module>
@@ -2015,6 +2330,328 @@
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Runtime.Numerics.dll</ModulePath>
       <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
       <ModuleName>System.Runtime.Numerics</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E4-69-FB-EC-7F-48-20-0B-F8-65-F9-13-26-73-20-C8-24-B7-B8-E2">
+      <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\Roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll</ModulePath>
+      <ModuleTime>2017-05-04T20:17:40Z</ModuleTime>
+      <ModuleName>Microsoft.Build.Tasks.CodeAnalysis</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="EE-E1-9F-3E-08-A6-4E-D8-CF-28-3A-78-2F-F2-E9-16-5D-FD-7C-42">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Security.Principal.Windows.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:44Z</ModuleTime>
+      <ModuleName>System.Security.Principal.Windows</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="92-0C-0D-A5-48-27-EC-43-CE-FF-32-D3-EA-9A-A3-18-F6-7F-E8-DE">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Security.Claims.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Security.Claims</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E7-C5-FA-C1-20-0B-1A-25-54-82-25-B9-AE-70-35-88-24-5F-4B-6C">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Security.Principal.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:44Z</ModuleTime>
+      <ModuleName>System.Security.Principal</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="88-1B-B7-69-15-E8-07-F7-F7-98-D6-55-29-24-DF-38-0A-E3-E5-37">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Threading.Timer.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:44Z</ModuleTime>
+      <ModuleName>System.Threading.Timer</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F6-70-5A-4A-3D-3B-8F-AB-38-1B-F7-15-8E-65-3E-CC-49-18-6A-EB">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Private.CoreLib.ni.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:44Z</ModuleTime>
+      <ModuleName>System.Private.CoreLib</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="8F-BA-13-15-5D-29-5B-98-94-A1-C4-EA-B5-D4-84-18-47-FD-AF-F0">
+      <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\Roslyn\csc.exe</ModulePath>
+      <ModuleTime>2017-05-04T20:17:40Z</ModuleTime>
+      <ModuleName>csc</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="10-F6-CF-D1-77-DC-83-45-0F-A7-94-89-E8-58-1A-94-0F-2D-39-99">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Runtime.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="27-FD-01-1F-7F-91-44-AA-26-6D-B2-BA-60-A7-6F-B8-A6-7B-C4-87">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\mscorlib.dll</ModulePath>
+      <ModuleTime>2017-04-11T15:56:10Z</ModuleTime>
+      <ModuleName>mscorlib</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="FC-FC-7C-CB-A6-4B-45-F9-39-2C-96-5D-60-A5-6E-21-D0-06-ED-AD">
+      <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\Roslyn\Microsoft.CodeAnalysis.dll</ModulePath>
+      <ModuleTime>2017-05-04T20:17:40Z</ModuleTime>
+      <ModuleName>Microsoft.CodeAnalysis</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BB-EF-8C-24-ED-B5-84-E0-F1-B9-F8-73-AC-85-3C-05-A0-D5-82-7F">
+      <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\Roslyn\Microsoft.CodeAnalysis.CSharp.dll</ModulePath>
+      <ModuleTime>2017-05-04T20:17:40Z</ModuleTime>
+      <ModuleName>Microsoft.CodeAnalysis.CSharp</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="78-5D-99-A3-90-D6-7D-1F-16-D9-6A-06-F5-95-F6-71-7F-58-02-21">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.IO.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.IO</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2E-39-08-79-1D-C2-AA-88-46-E8-43-52-C6-3E-D7-EE-D5-96-CD-89">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Threading.Tasks.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:44Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="3A-00-0E-75-2F-9C-E7-AD-35-F2-AC-57-1C-25-FD-18-75-65-13-F1">
+      <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\Roslyn\System.Collections.Immutable.dll</ModulePath>
+      <ModuleTime>2017-05-04T20:17:42Z</ModuleTime>
+      <ModuleName>System.Collections.Immutable</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="69-74-54-38-65-8F-5E-25-7D-73-E4-86-34-E9-E0-BE-CD-BF-2C-3F">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Collections.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Collections</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BA-C5-27-BE-93-08-CB-1F-DF-66-AD-24-E4-1F-0F-9E-29-D3-62-86">
+      <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\Roslyn\runtimes\win\lib\netstandard1.3\System.Text.Encoding.CodePages.dll</ModulePath>
+      <ModuleTime>2017-05-04T20:17:42Z</ModuleTime>
+      <ModuleName>System.Text.Encoding.CodePages</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="82-AA-AB-21-2D-1F-5A-5D-76-88-BC-99-D2-AE-5F-27-5E-DE-40-3E">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Text.Encoding.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:44Z</ModuleTime>
+      <ModuleName>System.Text.Encoding</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="84-8C-9D-01-05-23-E5-1B-ED-E4-38-4D-23-48-BB-27-E3-CA-C3-A6">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.AppContext.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.AppContext</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="DB-F6-C2-1A-63-0D-74-B8-1B-CC-5D-59-8D-EA-2C-09-55-13-40-1D">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.IO.FileSystem.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.IO.FileSystem</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="47-FA-BA-22-0D-94-47-3C-1E-3F-37-5C-92-22-E2-D7-C4-D6-3B-98">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Runtime.Extensions.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Runtime.Extensions</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0A-1B-46-F2-8B-9B-C4-F3-5E-D4-87-5E-F5-35-40-B9-57-F5-74-DA">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Threading.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:44Z</ModuleTime>
+      <ModuleName>System.Threading</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="78-80-49-A8-7E-78-47-11-2F-9D-DF-26-A7-C7-23-0B-07-D3-78-A0">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.IO.FileSystem.Primitives.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.IO.FileSystem.Primitives</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="64-11-3C-D9-70-FD-86-06-19-E7-CE-BB-44-52-18-81-48-85-9C-CA">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Linq.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Linq</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="D8-9C-DB-90-B6-A6-96-ED-46-4A-C7-83-61-D8-89-3C-5D-D0-66-B7">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Console.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Console</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="55-88-D6-46-7F-54-65-DB-60-06-A3-82-60-D8-40-FB-BC-EC-D5-81">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Reflection.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Reflection</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E3-3A-F1-CA-2D-90-BC-45-47-78-DC-4D-07-A5-90-1A-74-68-AC-FE">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Runtime.InteropServices.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Runtime.InteropServices</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="34-9D-BB-FA-81-DE-34-62-81-3C-68-2E-DC-4F-D3-D4-0F-DC-3F-80">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Runtime.Handles.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Runtime.Handles</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F3-70-6B-67-DF-E6-5C-1D-D6-F8-AB-B5-FA-33-AD-F0-00-C9-34-CB">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Runtime.Loader.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Runtime.Loader</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="6C-69-37-07-42-15-E1-41-36-7E-A8-CD-A5-6A-B0-A5-3F-62-F6-B8">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Globalization.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Globalization</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="CA-74-B4-AB-C7-7A-DB-9A-F2-69-C6-79-CD-5C-66-81-33-08-D1-39">
+      <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\Roslyn\System.Reflection.Metadata.dll</ModulePath>
+      <ModuleTime>2017-05-04T20:17:42Z</ModuleTime>
+      <ModuleName>System.Reflection.Metadata</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="CC-99-C9-08-66-31-C3-65-73-4B-3D-54-80-D9-17-F0-A3-79-96-74">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Text.Encoding.Extensions.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:44Z</ModuleTime>
+      <ModuleName>System.Text.Encoding.Extensions</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="1D-ED-DF-42-56-DD-12-67-EF-C3-94-70-2D-FA-AB-57-2A-97-6B-5B">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Threading.Tasks.Parallel.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:44Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks.Parallel</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="3A-59-23-69-14-25-FD-1A-2B-F8-46-11-A9-A9-27-E3-DB-04-E6-3A">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Diagnostics.Tracing.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Diagnostics.Tracing</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B2-79-8E-42-79-66-46-E5-BB-FA-80-DB-A4-98-64-E6-F3-34-CE-87">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Collections.Concurrent.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Collections.Concurrent</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="FC-53-73-D5-A9-A9-31-6A-68-BA-1B-85-DC-CC-1A-6A-F6-F6-A8-F0">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Security.Cryptography.Algorithms.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Security.Cryptography.Algorithms</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="FA-EA-A5-46-19-4B-AF-1D-DA-8A-8A-47-88-8A-67-46-94-5F-D6-A1">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Security.Cryptography.Primitives.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:44Z</ModuleTime>
+      <ModuleName>System.Security.Cryptography.Primitives</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="62-56-58-9C-7D-68-DC-09-25-7F-67-D7-3F-DB-45-53-37-44-D0-9C">
+      <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\Roslyn\System.ValueTuple.dll</ModulePath>
+      <ModuleTime>2017-05-04T20:17:42Z</ModuleTime>
+      <ModuleName>System.ValueTuple</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BC-CE-1D-B5-26-1A-F7-ED-59-2F-FB-AB-2E-B3-35-FE-4C-63-0C-F7">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Reflection.Primitives.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Reflection.Primitives</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="96-56-69-A3-E0-D9-40-CE-59-42-D4-C5-D9-A2-8D-F4-42-E9-25-0F">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.IO.MemoryMappedFiles.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.IO.MemoryMappedFiles</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="79-27-A4-64-B0-4E-8F-BF-E1-BA-32-B2-E3-0B-1E-20-BD-35-3C-CB">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.IO.UnmanagedMemoryStream.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.IO.UnmanagedMemoryStream</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="3B-D7-1E-C0-84-4C-02-CB-97-4A-8E-2A-A0-0A-52-F7-08-D3-F0-8A">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Reflection.Extensions.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Reflection.Extensions</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="75-2D-BA-9C-C0-5B-7B-F5-85-48-B7-3F-33-18-41-50-49-80-1F-35">
+      <ModulePath>C:\Users\NetWeb-MJ\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.Analyzers.dll</ModulePath>
+      <ModuleTime>2017-05-31T03:17:58Z</ModuleTime>
+      <ModuleName>Microsoft.CodeAnalysis.Analyzers</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F8-13-77-B6-9D-92-C4-91-70-80-E2-B5-03-D2-EA-53-8A-A3-0E-EB">
+      <ModulePath>C:\Users\NetWeb-MJ\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll</ModulePath>
+      <ModuleTime>2017-05-31T03:17:58Z</ModuleTime>
+      <ModuleName>Microsoft.CodeAnalysis.CSharp.Analyzers</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="56-E7-FE-76-AE-7C-2C-1F-18-49-23-EF-CB-03-07-CF-59-B2-70-00">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Resources.ResourceManager.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Resources.ResourceManager</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="54-EA-BB-3A-EC-62-4C-13-11-58-A6-B9-AB-E5-E8-E8-31-3D-87-D7">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2\System.Runtime.Numerics.dll</ModulePath>
+      <ModuleTime>2017-04-28T17:14:42Z</ModuleTime>
+      <ModuleName>System.Runtime.Numerics</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="D2-CA-30-43-B2-E7-F7-59-05-0F-53-0C-8A-4D-72-6F-71-F1-E2-55">
+      <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\Microsoft.Extensions.DependencyModel.dll</ModulePath>
+      <ModuleTime>2017-05-04T20:17:40Z</ModuleTime>
+      <ModuleName>Microsoft.Extensions.DependencyModel</ModuleName>
       <Files />
       <Classes />
     </Module>
@@ -2907,9 +3544,9 @@
       <Files />
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="5B-34-2D-AD-CC-BB-F8-0E-FF-33-45-69-FE-9E-00-7F-C2-87-FB-88">
+    <Module skippedDueTo="Filter" hash="D2-F7-EA-96-BE-EE-27-7C-DF-F4-78-7B-72-CF-39-EA-59-5A-24-0F">
       <ModulePath>E:\Repos\WebApplication1\Cibertec.Repositories.Tests\bin\Release\netcoreapp1.1\Cibertec.Repositories.Tests.dll</ModulePath>
-      <ModuleTime>2017-06-21T02:57:03.4978065Z</ModuleTime>
+      <ModuleTime>2017-06-23T00:43:34.8015823Z</ModuleTime>
       <ModuleName>Cibertec.Repositories.Tests</ModuleName>
       <Files />
       <Classes />
@@ -2953,6 +3590,20 @@
       <ModulePath>C:\Users\NetWeb-MJ\.nuget\packages\dapper.contrib\1.50.0\lib\netstandard1.3\Dapper.Contrib.dll</ModulePath>
       <ModuleTime>2016-07-01T23:38:22Z</ModuleTime>
       <ModuleName>Dapper.Contrib</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="28-2C-FC-AE-31-85-1D-8C-D8-A9-77-40-73-69-11-80-3A-81-18-27">
+      <ModulePath>C:\Users\NetWeb-MJ\.nuget\packages\fluentassertions\4.19.2\lib\netstandard1.3\FluentAssertions.Core.dll</ModulePath>
+      <ModuleTime>2017-03-08T11:21:22Z</ModuleTime>
+      <ModuleName>FluentAssertions.Core</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="63-B0-A9-BF-1B-D7-5E-B9-1C-E1-B7-05-B8-B8-5C-3F-66-80-E1-5A">
+      <ModulePath>C:\Users\NetWeb-MJ\.nuget\packages\fluentassertions\4.19.2\lib\netstandard1.3\FluentAssertions.dll</ModulePath>
+      <ModuleTime>2017-03-08T11:21:22Z</ModuleTime>
+      <ModuleName>FluentAssertions</ModuleName>
       <Files />
       <Classes />
     </Module>
@@ -3235,10 +3886,10 @@
               <Name>System.Void Cibertec.Models.Customer::set_Id(System.Int32)</Name>
               <FileRef uid="1" />
               <SequencePoints>
-                <SequencePoint vc="1" uspid="2" ordinal="0" offset="0" sl="8" sc="30" el="8" ec="34" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="10" uspid="2" ordinal="0" offset="0" sl="8" sc="30" el="8" ec="34" bec="0" bev="0" fileid="1" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="2" ordinal="0" offset="0" sl="8" sc="30" el="8" ec="34" bec="0" bev="0" fileid="1" />
+              <MethodPoint xsi:type="SequencePoint" vc="10" uspid="2" ordinal="0" offset="0" sl="8" sc="30" el="8" ec="34" bec="0" bev="0" fileid="1" />
             </Method>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
@@ -3257,10 +3908,10 @@
               <Name>System.Void Cibertec.Models.Customer::set_FirstName(System.String)</Name>
               <FileRef uid="1" />
               <SequencePoints>
-                <SequencePoint vc="1" uspid="4" ordinal="0" offset="0" sl="12" sc="40" el="12" ec="44" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="10" uspid="4" ordinal="0" offset="0" sl="12" sc="40" el="12" ec="44" bec="0" bev="0" fileid="1" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="4" ordinal="0" offset="0" sl="12" sc="40" el="12" ec="44" bec="0" bev="0" fileid="1" />
+              <MethodPoint xsi:type="SequencePoint" vc="10" uspid="4" ordinal="0" offset="0" sl="12" sc="40" el="12" ec="44" bec="0" bev="0" fileid="1" />
             </Method>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
@@ -3279,10 +3930,10 @@
               <Name>System.Void Cibertec.Models.Customer::set_LastName(System.String)</Name>
               <FileRef uid="1" />
               <SequencePoints>
-                <SequencePoint vc="1" uspid="6" ordinal="0" offset="0" sl="16" sc="39" el="16" ec="43" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="10" uspid="6" ordinal="0" offset="0" sl="16" sc="39" el="16" ec="43" bec="0" bev="0" fileid="1" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="6" ordinal="0" offset="0" sl="16" sc="39" el="16" ec="43" bec="0" bev="0" fileid="1" />
+              <MethodPoint xsi:type="SequencePoint" vc="10" uspid="6" ordinal="0" offset="0" sl="16" sc="39" el="16" ec="43" bec="0" bev="0" fileid="1" />
             </Method>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
@@ -3301,10 +3952,10 @@
               <Name>System.Void Cibertec.Models.Customer::set_City(System.String)</Name>
               <FileRef uid="1" />
               <SequencePoints>
-                <SequencePoint vc="1" uspid="8" ordinal="0" offset="0" sl="18" sc="35" el="18" ec="39" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="10" uspid="8" ordinal="0" offset="0" sl="18" sc="35" el="18" ec="39" bec="0" bev="0" fileid="1" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="8" ordinal="0" offset="0" sl="18" sc="35" el="18" ec="39" bec="0" bev="0" fileid="1" />
+              <MethodPoint xsi:type="SequencePoint" vc="10" uspid="8" ordinal="0" offset="0" sl="18" sc="35" el="18" ec="39" bec="0" bev="0" fileid="1" />
             </Method>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
@@ -3323,10 +3974,10 @@
               <Name>System.Void Cibertec.Models.Customer::set_Country(System.String)</Name>
               <FileRef uid="1" />
               <SequencePoints>
-                <SequencePoint vc="1" uspid="10" ordinal="0" offset="0" sl="19" sc="38" el="19" ec="42" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="10" uspid="10" ordinal="0" offset="0" sl="19" sc="38" el="19" ec="42" bec="0" bev="0" fileid="1" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="10" ordinal="0" offset="0" sl="19" sc="38" el="19" ec="42" bec="0" bev="0" fileid="1" />
+              <MethodPoint xsi:type="SequencePoint" vc="10" uspid="10" ordinal="0" offset="0" sl="19" sc="38" el="19" ec="42" bec="0" bev="0" fileid="1" />
             </Method>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
@@ -3345,10 +3996,10 @@
               <Name>System.Void Cibertec.Models.Customer::set_Phone(System.String)</Name>
               <FileRef uid="1" />
               <SequencePoints>
-                <SequencePoint vc="1" uspid="12" ordinal="0" offset="0" sl="20" sc="36" el="20" ec="40" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="10" uspid="12" ordinal="0" offset="0" sl="20" sc="36" el="20" ec="40" bec="0" bev="0" fileid="1" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="12" ordinal="0" offset="0" sl="20" sc="36" el="20" ec="40" bec="0" bev="0" fileid="1" />
+              <MethodPoint xsi:type="SequencePoint" vc="10" uspid="12" ordinal="0" offset="0" sl="20" sc="36" el="20" ec="40" bec="0" bev="0" fileid="1" />
             </Method>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
@@ -3367,10 +4018,10 @@
               <Name>System.Void Cibertec.Models.Customer::set_Orders(System.Collections.Generic.ICollection`1&lt;Cibertec.Models.Order&gt;)</Name>
               <FileRef uid="1" />
               <SequencePoints>
-                <SequencePoint vc="1" uspid="14" ordinal="0" offset="0" sl="22" sc="49" el="22" ec="53" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="10" uspid="14" ordinal="0" offset="0" sl="22" sc="49" el="22" ec="53" bec="0" bev="0" fileid="1" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="14" ordinal="0" offset="0" sl="22" sc="49" el="22" ec="53" bec="0" bev="0" fileid="1" />
+              <MethodPoint xsi:type="SequencePoint" vc="10" uspid="14" ordinal="0" offset="0" sl="22" sc="49" el="22" ec="53" bec="0" bev="0" fileid="1" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
@@ -3378,7 +4029,7 @@
               <Name>System.Void Cibertec.Models.Customer::.ctor()</Name>
               <SequencePoints />
               <BranchPoints />
-              <MethodPoint vc="1" uspid="15" ordinal="0" offset="0" />
+              <MethodPoint vc="13" uspid="15" ordinal="0" offset="0" />
             </Method>
           </Methods>
         </Class>
@@ -4078,10 +4729,10 @@
         </Class>
       </Classes>
     </Module>
-    <Module hash="1E-4E-9E-08-F7-F8-2F-2F-99-D5-F3-91-64-71-AA-C0-49-53-84-C8">
+    <Module hash="EB-84-6D-AB-B4-D6-1B-80-39-D7-4A-78-39-EE-A1-6B-AD-30-41-FF">
       <Summary numSequencePoints="70" visitedSequencePoints="0" numBranchPoints="25" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="0" numClasses="9" visitedMethods="0" numMethods="25" />
       <ModulePath>E:\Repos\WebApplication1\Cibertec.Repositories.Tests\bin\Release\netcoreapp1.1\Cibertec.Repositories.dll</ModulePath>
-      <ModuleTime>2017-06-21T02:41:18.0607202Z</ModuleTime>
+      <ModuleTime>2017-06-23T00:43:29.4108872Z</ModuleTime>
       <ModuleName>Cibertec.Repositories</ModuleName>
       <Files>
         <File uid="11" fullPath="E:\Repos\WebApplication1\Cibertec.Repositories\Repository.cs" />
@@ -4500,10 +5151,10 @@
         </Class>
       </Classes>
     </Module>
-    <Module hash="B0-93-40-90-C4-CA-C3-2B-89-40-A3-F4-23-2E-D1-68-96-80-36-B0">
-      <Summary numSequencePoints="34" visitedSequencePoints="0" numBranchPoints="22" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="2" visitedMethods="0" numMethods="22" />
+    <Module hash="1A-94-27-0F-D1-1B-B6-FE-8F-BD-21-3D-9A-B1-51-1E-2E-2F-59-9A">
+      <Summary numSequencePoints="33" visitedSequencePoints="0" numBranchPoints="22" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="2" visitedMethods="0" numMethods="22" />
       <ModulePath>E:\Repos\WebApplication1\Cibertec.Repositories.Tests\bin\Release\netcoreapp1.1\Cibertec.UnitOfWork.dll</ModulePath>
-      <ModuleTime>2017-06-21T02:41:20.4054725Z</ModuleTime>
+      <ModuleTime>2017-06-23T00:43:32.2078136Z</ModuleTime>
       <ModuleName>Cibertec.UnitOfWork</ModuleName>
       <Files>
         <File uid="29" fullPath="E:\Repos\WebApplication1\Cibertec.UnitOfWork\CibertecUnitOfWork.cs" />
@@ -4583,24 +5234,24 @@
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken>100663304</MetadataToken>
-              <Name>Cibertec.Repositories.IRepository`1&lt;Cibertec.Models.Product&gt; Cibertec.UnitOfWork.CibertecUnitOfWork::get_Products()</Name>
+              <Name>Cibertec.Repositories.Northwind.IProductRepository Cibertec.UnitOfWork.CibertecUnitOfWork::get_Products()</Name>
               <FileRef uid="29" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="160" ordinal="0" offset="0" sl="22" sc="48" el="22" ec="52" bec="0" bev="0" fileid="29" />
+                <SequencePoint vc="0" uspid="160" ordinal="0" offset="0" sl="22" sc="46" el="22" ec="50" bec="0" bev="0" fileid="29" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="160" ordinal="0" offset="0" sl="22" sc="48" el="22" ec="52" bec="0" bev="0" fileid="29" />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="160" ordinal="0" offset="0" sl="22" sc="46" el="22" ec="50" bec="0" bev="0" fileid="29" />
             </Method>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken>100663305</MetadataToken>
-              <Name>System.Void Cibertec.UnitOfWork.CibertecUnitOfWork::set_Products(Cibertec.Repositories.IRepository`1&lt;Cibertec.Models.Product&gt;)</Name>
+              <Name>System.Void Cibertec.UnitOfWork.CibertecUnitOfWork::set_Products(Cibertec.Repositories.Northwind.IProductRepository)</Name>
               <FileRef uid="29" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="161" ordinal="0" offset="0" sl="22" sc="53" el="22" ec="65" bec="0" bev="0" fileid="29" />
+                <SequencePoint vc="0" uspid="161" ordinal="0" offset="0" sl="22" sc="51" el="22" ec="63" bec="0" bev="0" fileid="29" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="161" ordinal="0" offset="0" sl="22" sc="53" el="22" ec="65" bec="0" bev="0" fileid="29" />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="161" ordinal="0" offset="0" sl="22" sc="51" el="22" ec="63" bec="0" bev="0" fileid="29" />
             </Method>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
@@ -4634,7 +5285,7 @@
                 <SequencePoint vc="0" uspid="165" ordinal="1" offset="6" sl="12" sc="13" el="12" ec="66" bec="0" bev="0" fileid="29" />
                 <SequencePoint vc="0" uspid="166" ordinal="2" offset="18" sl="13" sc="13" el="13" ec="62" bec="0" bev="0" fileid="29" />
                 <SequencePoint vc="0" uspid="167" ordinal="3" offset="30" sl="14" sc="13" el="14" ec="70" bec="0" bev="0" fileid="29" />
-                <SequencePoint vc="0" uspid="168" ordinal="4" offset="42" sl="15" sc="13" el="15" ec="66" bec="0" bev="0" fileid="29" />
+                <SequencePoint vc="0" uspid="168" ordinal="4" offset="42" sl="15" sc="13" el="15" ec="64" bec="0" bev="0" fileid="29" />
                 <SequencePoint vc="0" uspid="169" ordinal="5" offset="54" sl="16" sc="13" el="16" ec="68" bec="0" bev="0" fileid="29" />
                 <SequencePoint vc="0" uspid="170" ordinal="6" offset="66" sl="18" sc="9" el="18" ec="10" bec="0" bev="0" fileid="29" />
               </SequencePoints>
@@ -4644,7 +5295,7 @@
           </Methods>
         </Class>
         <Class>
-          <Summary numSequencePoints="17" visitedSequencePoints="0" numBranchPoints="11" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="11" />
+          <Summary numSequencePoints="16" visitedSequencePoints="0" numBranchPoints="11" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="11" />
           <FullName>Cibertec.UnitOfWork.EFUnitOfWork</FullName>
           <Methods>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
@@ -4653,10 +5304,10 @@
               <Name>Cibertec.Repositories.Northwind.ICustomerRepository Cibertec.UnitOfWork.EFUnitOfWork::get_Customers()</Name>
               <FileRef uid="30" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="171" ordinal="0" offset="0" sl="20" sc="48" el="20" ec="52" bec="0" bev="0" fileid="30" />
+                <SequencePoint vc="0" uspid="171" ordinal="0" offset="0" sl="21" sc="48" el="21" ec="52" bec="0" bev="0" fileid="30" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="171" ordinal="0" offset="0" sl="20" sc="48" el="20" ec="52" bec="0" bev="0" fileid="30" />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="171" ordinal="0" offset="0" sl="21" sc="48" el="21" ec="52" bec="0" bev="0" fileid="30" />
             </Method>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
@@ -4664,10 +5315,10 @@
               <Name>System.Void Cibertec.UnitOfWork.EFUnitOfWork::set_Customers(Cibertec.Repositories.Northwind.ICustomerRepository)</Name>
               <FileRef uid="30" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="172" ordinal="0" offset="0" sl="20" sc="53" el="20" ec="65" bec="0" bev="0" fileid="30" />
+                <SequencePoint vc="0" uspid="172" ordinal="0" offset="0" sl="21" sc="53" el="21" ec="65" bec="0" bev="0" fileid="30" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="172" ordinal="0" offset="0" sl="20" sc="53" el="20" ec="65" bec="0" bev="0" fileid="30" />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="172" ordinal="0" offset="0" sl="21" sc="53" el="21" ec="65" bec="0" bev="0" fileid="30" />
             </Method>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
@@ -4675,10 +5326,10 @@
               <Name>Cibertec.Repositories.IRepository`1&lt;Cibertec.Models.Order&gt; Cibertec.UnitOfWork.EFUnitOfWork::get_Orders()</Name>
               <FileRef uid="30" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="173" ordinal="0" offset="0" sl="21" sc="44" el="21" ec="48" bec="0" bev="0" fileid="30" />
+                <SequencePoint vc="0" uspid="173" ordinal="0" offset="0" sl="22" sc="44" el="22" ec="48" bec="0" bev="0" fileid="30" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="173" ordinal="0" offset="0" sl="21" sc="44" el="21" ec="48" bec="0" bev="0" fileid="30" />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="173" ordinal="0" offset="0" sl="22" sc="44" el="22" ec="48" bec="0" bev="0" fileid="30" />
             </Method>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
@@ -4686,10 +5337,10 @@
               <Name>System.Void Cibertec.UnitOfWork.EFUnitOfWork::set_Orders(Cibertec.Repositories.IRepository`1&lt;Cibertec.Models.Order&gt;)</Name>
               <FileRef uid="30" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="174" ordinal="0" offset="0" sl="21" sc="49" el="21" ec="61" bec="0" bev="0" fileid="30" />
+                <SequencePoint vc="0" uspid="174" ordinal="0" offset="0" sl="22" sc="49" el="22" ec="61" bec="0" bev="0" fileid="30" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="174" ordinal="0" offset="0" sl="21" sc="49" el="21" ec="61" bec="0" bev="0" fileid="30" />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="174" ordinal="0" offset="0" sl="22" sc="49" el="22" ec="61" bec="0" bev="0" fileid="30" />
             </Method>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
@@ -4697,10 +5348,10 @@
               <Name>Cibertec.Repositories.IRepository`1&lt;Cibertec.Models.OrderItem&gt; Cibertec.UnitOfWork.EFUnitOfWork::get_OrderItems()</Name>
               <FileRef uid="30" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="175" ordinal="0" offset="0" sl="22" sc="52" el="22" ec="56" bec="0" bev="0" fileid="30" />
+                <SequencePoint vc="0" uspid="175" ordinal="0" offset="0" sl="23" sc="52" el="23" ec="56" bec="0" bev="0" fileid="30" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="175" ordinal="0" offset="0" sl="22" sc="52" el="22" ec="56" bec="0" bev="0" fileid="30" />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="175" ordinal="0" offset="0" sl="23" sc="52" el="23" ec="56" bec="0" bev="0" fileid="30" />
             </Method>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
@@ -4708,32 +5359,32 @@
               <Name>System.Void Cibertec.UnitOfWork.EFUnitOfWork::set_OrderItems(Cibertec.Repositories.IRepository`1&lt;Cibertec.Models.OrderItem&gt;)</Name>
               <FileRef uid="30" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="176" ordinal="0" offset="0" sl="22" sc="57" el="22" ec="69" bec="0" bev="0" fileid="30" />
+                <SequencePoint vc="0" uspid="176" ordinal="0" offset="0" sl="23" sc="57" el="23" ec="69" bec="0" bev="0" fileid="30" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="176" ordinal="0" offset="0" sl="22" sc="57" el="22" ec="69" bec="0" bev="0" fileid="30" />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="176" ordinal="0" offset="0" sl="23" sc="57" el="23" ec="69" bec="0" bev="0" fileid="30" />
             </Method>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken>100663315</MetadataToken>
-              <Name>Cibertec.Repositories.IRepository`1&lt;Cibertec.Models.Product&gt; Cibertec.UnitOfWork.EFUnitOfWork::get_Products()</Name>
+              <Name>Cibertec.Repositories.Northwind.IProductRepository Cibertec.UnitOfWork.EFUnitOfWork::get_Products()</Name>
               <FileRef uid="30" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="177" ordinal="0" offset="0" sl="23" sc="48" el="23" ec="52" bec="0" bev="0" fileid="30" />
+                <SequencePoint vc="0" uspid="177" ordinal="0" offset="0" sl="24" sc="46" el="24" ec="50" bec="0" bev="0" fileid="30" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="177" ordinal="0" offset="0" sl="23" sc="48" el="23" ec="52" bec="0" bev="0" fileid="30" />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="177" ordinal="0" offset="0" sl="24" sc="46" el="24" ec="50" bec="0" bev="0" fileid="30" />
             </Method>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken>100663316</MetadataToken>
-              <Name>System.Void Cibertec.UnitOfWork.EFUnitOfWork::set_Products(Cibertec.Repositories.IRepository`1&lt;Cibertec.Models.Product&gt;)</Name>
+              <Name>System.Void Cibertec.UnitOfWork.EFUnitOfWork::set_Products(Cibertec.Repositories.Northwind.IProductRepository)</Name>
               <FileRef uid="30" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="178" ordinal="0" offset="0" sl="23" sc="53" el="23" ec="65" bec="0" bev="0" fileid="30" />
+                <SequencePoint vc="0" uspid="178" ordinal="0" offset="0" sl="24" sc="51" el="24" ec="63" bec="0" bev="0" fileid="30" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="178" ordinal="0" offset="0" sl="23" sc="53" el="23" ec="65" bec="0" bev="0" fileid="30" />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="178" ordinal="0" offset="0" sl="24" sc="51" el="24" ec="63" bec="0" bev="0" fileid="30" />
             </Method>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
@@ -4741,10 +5392,10 @@
               <Name>Cibertec.Repositories.IRepository`1&lt;Cibertec.Models.Supplier&gt; Cibertec.UnitOfWork.EFUnitOfWork::get_Suppliers()</Name>
               <FileRef uid="30" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="179" ordinal="0" offset="0" sl="24" sc="50" el="24" ec="54" bec="0" bev="0" fileid="30" />
+                <SequencePoint vc="0" uspid="179" ordinal="0" offset="0" sl="25" sc="50" el="25" ec="54" bec="0" bev="0" fileid="30" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="179" ordinal="0" offset="0" sl="24" sc="50" el="24" ec="54" bec="0" bev="0" fileid="30" />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="179" ordinal="0" offset="0" sl="25" sc="50" el="25" ec="54" bec="0" bev="0" fileid="30" />
             </Method>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
@@ -4752,27 +5403,26 @@
               <Name>System.Void Cibertec.UnitOfWork.EFUnitOfWork::set_Suppliers(Cibertec.Repositories.IRepository`1&lt;Cibertec.Models.Supplier&gt;)</Name>
               <FileRef uid="30" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="180" ordinal="0" offset="0" sl="24" sc="55" el="24" ec="67" bec="0" bev="0" fileid="30" />
+                <SequencePoint vc="0" uspid="180" ordinal="0" offset="0" sl="25" sc="55" el="25" ec="67" bec="0" bev="0" fileid="30" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="180" ordinal="0" offset="0" sl="24" sc="55" el="24" ec="67" bec="0" bev="0" fileid="30" />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="180" ordinal="0" offset="0" sl="25" sc="55" el="25" ec="67" bec="0" bev="0" fileid="30" />
             </Method>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="7" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken>100663308</MetadataToken>
               <Name>System.Void Cibertec.UnitOfWork.EFUnitOfWork::.ctor(Microsoft.EntityFrameworkCore.DbContext)</Name>
               <FileRef uid="30" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="181" ordinal="0" offset="0" sl="11" sc="9" el="11" ec="48" bec="0" bev="0" fileid="30" />
-                <SequencePoint vc="0" uspid="182" ordinal="1" offset="6" sl="13" sc="13" el="13" ec="58" bec="0" bev="0" fileid="30" />
-                <SequencePoint vc="0" uspid="183" ordinal="2" offset="18" sl="14" sc="13" el="14" ec="56" bec="0" bev="0" fileid="30" />
-                <SequencePoint vc="0" uspid="184" ordinal="3" offset="30" sl="15" sc="13" el="15" ec="64" bec="0" bev="0" fileid="30" />
-                <SequencePoint vc="0" uspid="185" ordinal="4" offset="42" sl="16" sc="13" el="16" ec="60" bec="0" bev="0" fileid="30" />
-                <SequencePoint vc="0" uspid="186" ordinal="5" offset="54" sl="17" sc="13" el="17" ec="62" bec="0" bev="0" fileid="30" />
-                <SequencePoint vc="0" uspid="187" ordinal="6" offset="66" sl="19" sc="9" el="19" ec="10" bec="0" bev="0" fileid="30" />
+                <SequencePoint vc="0" uspid="181" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="48" bec="0" bev="0" fileid="30" />
+                <SequencePoint vc="0" uspid="182" ordinal="1" offset="6" sl="14" sc="13" el="14" ec="58" bec="0" bev="0" fileid="30" />
+                <SequencePoint vc="0" uspid="183" ordinal="2" offset="18" sl="15" sc="13" el="15" ec="56" bec="0" bev="0" fileid="30" />
+                <SequencePoint vc="0" uspid="184" ordinal="3" offset="30" sl="16" sc="13" el="16" ec="64" bec="0" bev="0" fileid="30" />
+                <SequencePoint vc="0" uspid="185" ordinal="4" offset="42" sl="18" sc="13" el="18" ec="62" bec="0" bev="0" fileid="30" />
+                <SequencePoint vc="0" uspid="186" ordinal="5" offset="54" sl="20" sc="9" el="20" ec="10" bec="0" bev="0" fileid="30" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="181" ordinal="0" offset="0" sl="11" sc="9" el="11" ec="48" bec="0" bev="0" fileid="30" />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="181" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="48" bec="0" bev="0" fileid="30" />
             </Method>
           </Methods>
         </Class>
@@ -5100,6 +5750,20 @@
       <Files />
       <Classes />
     </Module>
+    <Module skippedDueTo="Filter" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>DynamicProxyGenAssembly2</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>DynamicProxyGenAssembly2</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
     <Module skippedDueTo="Filter" hash="81-CD-53-94-0B-4A-42-C6-E1-C9-B5-A0-9F-9C-08-A2-29-C8-37-C2">
       <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\System.ComponentModel.TypeConverter.dll</ModulePath>
       <ModuleTime>2017-05-04T20:17:42Z</ModuleTime>
@@ -5125,20 +5789,6 @@
       <ModulePath>C:\Program Files\dotnet\sdk\1.0.4\System.ComponentModel.Primitives.dll</ModulePath>
       <ModuleTime>2017-05-04T20:17:42Z</ModuleTime>
       <ModuleName>System.ComponentModel.Primitives</ModuleName>
-      <Files />
-      <Classes />
-    </Module>
-    <Module skippedDueTo="Filter" hash="">
-      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
-      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
-      <ModuleName>DynamicProxyGenAssembly2</ModuleName>
-      <Files />
-      <Classes />
-    </Module>
-    <Module skippedDueTo="Filter" hash="">
-      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
-      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
-      <ModuleName>DynamicProxyGenAssembly2</ModuleName>
       <Files />
       <Classes />
     </Module>

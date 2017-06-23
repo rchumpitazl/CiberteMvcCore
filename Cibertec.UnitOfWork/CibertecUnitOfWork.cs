@@ -12,14 +12,14 @@ namespace Cibertec.UnitOfWork
             Customers = new CustomerRepository(connectionString);
             Orders = new Repository<Order>(connectionString);
             OrderItems = new Repository<OrderItem>(connectionString);
-            Products = new Repository<Product>(connectionString);
+            Products = new ProductRepository(connectionString);
             Suppliers = new Repository<Supplier>(connectionString);
 
         }
         public ICustomerRepository Customers { get; private set; }
         public IRepository<Order> Orders { get; private set; }
         public IRepository<OrderItem> OrderItems { get; private set; }
-        public IRepository<Product> Products { get; private set; }
+        public IProductRepository Products { get; private set; }
         public IRepository<Supplier> Suppliers { get; private set; }
     }
 }

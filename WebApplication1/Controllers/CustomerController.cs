@@ -19,6 +19,13 @@ namespace WebApplication1.Controllers
             return View(_unit.Customers.GetAll());
         }
 
+        public IActionResult Create()
+        {
+
+            return View();
+        }
+
+
         public  IActionResult Detail(){
 
             return View(_unit.Customers.SearchByNames("Maria", "Anders"));

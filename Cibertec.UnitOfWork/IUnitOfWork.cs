@@ -9,7 +9,7 @@ namespace Cibertec.UnitOfWork
         ICustomerRepository Customers { get; }
         IRepository<Order> Orders { get; }
         IRepository<OrderItem> OrderItems { get; }
-        IRepository<Product> Products { get; }
+        IProductRepository Products { get; }
         IRepository<Supplier> Suppliers { get; }
     }
 }
