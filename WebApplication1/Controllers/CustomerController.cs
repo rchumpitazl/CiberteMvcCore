@@ -19,10 +19,23 @@ namespace WebApplication1.Controllers
             return View(_unit.Customers.GetAll());
         }
 
-        
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        public IActionResult Edit(int id)
+        {
+            return View(_unit.Customers.GetEntityById(id));
+        }
+
+        public IActionResult Delete(int id)
+        {
+            return View(_unit.Customers.GetEntityById(id));
+        }
 
 
-        public  IActionResult Detail(){
+        public IActionResult Detail(){
 
             return View(_unit.Customers.SearchByNames("Maria", "Anders"));
         }
