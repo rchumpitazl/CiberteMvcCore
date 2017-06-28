@@ -1,4 +1,5 @@
-﻿using Cibertec.UnitOfWork;
+﻿using Cibertec.Models;
+using Cibertec.UnitOfWork;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Cibertec.WebApi.Controllers
@@ -16,6 +17,11 @@ namespace Cibertec.WebApi.Controllers
         public IActionResult List()
         {
             return Ok(_unit.Customers.GetAll());
+        }
+        [HttpPost]
+        public IActionResult Create(Customer customer)
+        {
+            return Ok(_unit.Customers.Insert(customer));
         }
     }
 }
