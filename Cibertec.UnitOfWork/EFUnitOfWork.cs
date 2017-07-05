@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Cibertec.UnitOfWork
 {
-    public class EFUnitOfWork : IUnitOfWork
+    public class EFUnitOfWork 
     {
         public EFUnitOfWork(DbContext _context)
         {

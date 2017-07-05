@@ -6,6 +6,7 @@ namespace Cibertec.UnitOfWork
 {
     public interface IUnitOfWork
     {
+        IUserRepository Users { get; }
         ICustomerRepository Customers { get; }
         IRepository<Order> Orders { get; }
         IRepository<OrderItem> OrderItems { get; }
