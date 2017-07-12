@@ -32,6 +32,13 @@ namespace Cibertec.WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             // Add framework services.
+            services.AddCors(cors => cors.AddPolicy("AllAccess", builder =>
+           {
+               builder.AllowAnyOrigin()
+                      .AllowAnyMethod()
+                      .AllowAnyHeader();
+           }));
+
             services.Configure<GzipCompressionProviderOptions>
                 ((options) => options.Level = System.IO.Compression.CompressionLevel.Optimal);
 
@@ -47,11 +54,14 @@ namespace Cibertec.WebApi
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
+            app.UseCors("AllAccess");
+
+            app.UseSimpleToken();
+
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
 
             app.UseResponseCompression();
-            app.UseSimpleToken();
             app.UseMvc();
         }
     }
