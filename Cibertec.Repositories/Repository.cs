@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using Dapper.Contrib.Extensions;
 using System.Data.SqlClient;
 

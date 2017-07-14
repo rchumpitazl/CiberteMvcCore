@@ -1,0 +1,10 @@
+﻿<div ng-controller="supplierController as vm">
+    <supplier-card ng-repeat="supplier in vm.supplierList"
+                   id="{{::supplier.id}}"
+                   company-name="{{::supplier.companyName}}"
+                   contact-name="{{::supplier.contactName}}"
+                   city="{{::supplier.city}}"
+                   country="{{::supplier.country}}"
+                   phone="{{::supplier.phone}}">
+    </supplier-card>
+</div>

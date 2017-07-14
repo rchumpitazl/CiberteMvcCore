@@ -1,7 +1,9 @@
 ﻿<div ng-controller="loginController as vm">
+    
     <div ng-if="vm.showError" class="alert alert-danger">
-        <strong>Error!</strong> El usuario o contraseña son incorrectos.
+        <strong>Error!</strong> {{vm.messageError}}
     </div> 
+    
     <form id="loginModel" ng-submit="vm.login()" class="form-horizontal">
         <div class="form-group">
             <label for="userName" class="control-label col-sm-2">Usuario</label>

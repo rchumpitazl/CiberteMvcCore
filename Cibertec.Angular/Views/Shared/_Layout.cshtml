@@ -36,7 +36,32 @@
                     <li><a ng-if="!vm.validate()" ui-sref="login"
                            ui-sref-active="active"
                            >Login</a></li>
-                    <li><a ng-if="vm.validate()" ng-click="vm.logout()" href="#" ui-sref-active="active">Logout</a></li>
+                    <li><a ng-if="vm.validate()" 
+                           ng-click="vm.logout()" 
+                           ui-sref-active="active">Logout</a></li>
+                    <li><a ng-if="vm.validate()"
+                           ui-sref="product"
+                           ui-sref-active="active">Product</a></li>
+                    <li>
+                        <a ng-if="vm.validate()"
+                           ui-sref="customer"
+                           ui-sref-active="active">Customer</a>
+                    </li>
+                    <li>
+                        <a ng-if="vm.validate()"
+                           ui-sref="supplier"
+                           ui-sref-active="active">Supplier</a>
+                    </li>
+                    <li>
+                        <a ng-if="vm.validate()"
+                           ui-sref="order"
+                           ui-sref-active="active">Order</a>
+                    </li>
+                    <li>
+                        <a ng-if="vm.validate()"
+                           ui-sref="orderitem"
+                           ui-sref-active="active">Order Item</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -57,6 +82,16 @@
     <script src="~/app/shared/authentication.service.js"></script>
     <script src="~/app/shared/settings.service.js"></script>
     <script src="~/app/public/login/login.controller.js"></script>
+    <script src="~/app/private/product/product.controller.js"></script>
+    <script src="~/app/private/product/directives/product-card/product-card.js"></script>
+    <script src="~/app/private/customer/customer.controller.js"></script>
+    <script src="~/app/private/customer/directives/customer-card/customer-card.js"></script>
+    <script src="~/app/private/supplier/supplier.controller.js"></script>
+    <script src="~/app/private/supplier/directives/supplier-card/supplier-card.js"></script>
+    <script src="~/app/private/order/order.controller.js"></script>
+    <script src="~/app/private/order/directives/order-card/order-card.js"></script>
+    <script src="~/app/private/orderitem/orderitem.controller.js"></script>
+    <script src="~/app/private/orderitem/directives/orderitem-card/orderitem-card.js"></script>
 </body>
 
 </html>
