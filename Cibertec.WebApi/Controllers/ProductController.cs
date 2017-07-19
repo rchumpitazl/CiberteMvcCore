@@ -27,6 +27,18 @@ namespace Cibertec.WebApi.Controllers
         {
             return Ok(_unit.Products.Update(product));
         }
-        
+        [HttpGet]
+        [Route("{id}")]
+        public IActionResult Get(int id)
+        {
+            if (id <= 0) return BadRequest();
+            return Ok(_unit.Products.GetEntityById(id));
+        }
+        [HttpDelete]
+        public IActionResult Delete([FromBody]Product product)
+        {
+            return Ok(_unit.Products.Delete(product));
+        }
+
     }
 }

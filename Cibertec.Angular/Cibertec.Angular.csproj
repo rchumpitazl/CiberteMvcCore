@@ -13,6 +13,9 @@
     <Content Include="wwwroot\app\app.controller.js" />
     <Content Include="wwwroot\app\app.js" />
     <Content Include="wwwroot\app\app.routes.js" />
+    <Content Include="wwwroot\app\components\modal\modal-directive.html" />
+    <Content Include="wwwroot\app\components\modal\modal.directive" />
+    <Content Include="wwwroot\app\components\modal\modal.directive.js" />
     <Content Include="wwwroot\app\home.html" />
     <Content Include="wwwroot\app\private\customer\customer.controller.js" />
     <Content Include="wwwroot\app\private\customer\directives\customer-card\customer-card.html" />
@@ -52,13 +55,12 @@
     <Content Include="wwwroot\app\private\order\product.controller.js">
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
-    <Content Include="wwwroot\app\private\product\directives\product-card\index.html">
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
     <Content Include="wwwroot\app\private\product\directives\product-card\product-card.html" />
     <Content Include="wwwroot\app\private\product\directives\product-card\product-card.js">
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
+    <Content Include="wwwroot\app\private\product\directives\product-form\product-form.html" />
+    <Content Include="wwwroot\app\private\product\directives\product-form\product-form.js" />
     <Content Include="wwwroot\app\private\product\index.html">
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
