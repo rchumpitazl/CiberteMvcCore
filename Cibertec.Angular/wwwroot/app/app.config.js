@@ -1,8 +1,15 @@
 ﻿(function () {
     'use strict';
-    angular.module('app').
+    angular.module('app').config(setup).
         run(run);
-    
+
+        setup.$inject = ['$compileProvider'];
+
+    function setup($compileProvider) {
+        $compileProvider.debugInfoEnabled(false);
+    }
+     
+
     run.$inject = ['$http', '$state', 'localStorageService', 'configService' ];
 
     function run($http, $state, localStorageService, configService) {

@@ -21,28 +21,54 @@
         vm.modalTitle = '';
         vm.showCreate = false;
 
+
+        vm.totalRecords = 0;
+        vm.currentPage = 1;
+        vm.maxSize = 10;
+        vm.itemsPerPage = 25;
+
         //Funciones
         vm.getProduct = getProduct;
         vm.create = create;
         vm.edit = edit;
         vm.delete = productDelete;
+        vm.pageChanged = pageChanged;
         //vm.closeModal = closeModal;
 
         init();
 
         function init() {
             if (!configService.getLogin()) return $state.go('login');
-            list();
+            configurePagination();
         }
-        function list() {
-            dataService.getData(url + "/product")
+        function configurePagination() {
+            var widthScreen = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+            if (widthScreen < 20) vm.maxSize = 5;
+            totalRecords();
+        }
+        function totalRecords() {
+            dataService.getData(url + "/product/count")
+                .then(function (result) {
+                    vm.totalRecords = result.data;
+                    getPageRecords(vm.currentPage);
+                },
+                function (error) {
+                    vm.productList = [];
+                }
+                );
+        }
+        function pageChanged() {
+            getPageRecords(vm.currentPage);
+        }
+        function getPageRecords(page) {
+            dataService.getData(url + "/product/" + page + "/" + vm.itemsPerPage)
                 .then(function (result) {
                     vm.productList = result.data;
                 },
                 function (error) {
                     vm.productList = [];
                 }
-            );
+                );
         }
 
         function getProduct(id) {
@@ -62,7 +88,8 @@
             dataService.postData(url + '/product', vm.product)
                 .then(function (result) {
                     vm.product = {};
-                    list();
+                    vm.currentPage = 1;
+                    totalRecords();
                     closeModal();
                 },
                 function (error) {

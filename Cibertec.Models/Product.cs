@@ -9,6 +9,5 @@
         public string Package { get; set; }
         public bool IsDiscontinued { get; set; }
 
-        public Supplier Supplier { get; set; }
     }
 }

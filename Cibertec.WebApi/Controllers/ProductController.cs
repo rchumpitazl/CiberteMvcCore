@@ -5,11 +5,11 @@ using Microsoft.AspNetCore.Mvc;
 namespace Cibertec.WebApi.Controllers
 {
     [Route("product")]
-    public class ProductController: BaseController
+    public class ProductController : BaseController
     {
-        public ProductController(IUnitOfWork unit):base(unit)
+        public ProductController(IUnitOfWork unit) : base(unit)
         {
-         
+
         }
 
         [HttpGet]
@@ -17,6 +17,24 @@ namespace Cibertec.WebApi.Controllers
         {
             return Ok(_unit.Products.GetAll());
         }
+
+        [Route("count")]
+        public IActionResult GetRowNumber()
+        {
+            return Ok(_unit.Products.RowNumbers());
+        }
+
+        [Route("{page}/{pagesize}")]
+        [HttpGet]
+        public IActionResult List(int page, int pagesize)
+        {
+            int startRow = ((page - 1) * pagesize) + 1;
+            int endRow = page * pagesize;
+            return Ok(_unit.Products.ListProductPage(startRow, endRow));
+        }
+
+
+
         [HttpPost]
         public IActionResult Create([FromBody]Product product)
         {

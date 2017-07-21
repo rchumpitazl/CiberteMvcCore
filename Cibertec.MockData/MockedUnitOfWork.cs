@@ -30,7 +30,7 @@ namespace Cibertec.MockData
                         FirstName = "Edinson",
                         LastName = "Chumpitaz",
                         Phone = "555-5555",
-                        Orders = new List<Order>()
+                        //Orders = new List<Order>()
                     },
                     new Customer
                     {
@@ -40,7 +40,7 @@ namespace Cibertec.MockData
                         FirstName = "Raul",
                         LastName = "Huaman",
                         Phone = "666-6666",
-                        Orders = new List<Order>()
+                        //Orders = new List<Order>()
                     }
                 };
             mock.Setup(c => c.Customers.GetEntityById(It.IsAny<int>())).

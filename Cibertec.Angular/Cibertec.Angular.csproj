@@ -20,27 +20,12 @@
     <Content Include="wwwroot\app\private\customer\customer.controller.js" />
     <Content Include="wwwroot\app\private\customer\directives\customer-card\customer-card.html" />
     <Content Include="wwwroot\app\private\customer\directives\customer-card\customer-card.js" />
-    <Content Include="wwwroot\app\private\customer\directives\customer-card\product-card.html">
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
     <Content Include="wwwroot\app\private\customer\index.html">
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-    <Content Include="wwwroot\app\private\customer\product.controller.js">
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-    <Content Include="wwwroot\app\private\orderitem\directives\orderitem-card\order-card.html">
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-    <Content Include="wwwroot\app\private\orderitem\directives\orderitem-card\order-card.js">
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
     <Content Include="wwwroot\app\private\orderitem\directives\orderitem-card\orderitem-card.html" />
     <Content Include="wwwroot\app\private\orderitem\directives\orderitem-card\orderitem-card.js" />
     <Content Include="wwwroot\app\private\orderitem\index.html">
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-    <Content Include="wwwroot\app\private\orderitem\order.controller.js">
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
     <Content Include="wwwroot\app\private\orderitem\orderitem.controller.js" />
@@ -52,9 +37,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
     <Content Include="wwwroot\app\private\order\order.controller.js" />
-    <Content Include="wwwroot\app\private\order\product.controller.js">
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
     <Content Include="wwwroot\app\private\product\directives\product-card\product-card.html" />
     <Content Include="wwwroot\app\private\product\directives\product-card\product-card.js">
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
@@ -67,10 +49,6 @@
     <Content Include="wwwroot\app\private\product\product.controller.js">
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
-    <Content Include="wwwroot\app\private\supplier\customer.controller.js">
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-    <Content Include="wwwroot\app\private\supplier\directives\supplier-card\customer-card.html" />
     <Content Include="wwwroot\app\private\supplier\directives\supplier-card\supplier-card.html" />
     <Content Include="wwwroot\app\private\supplier\directives\supplier-card\supplier-card.js" />
     <Content Include="wwwroot\app\private\supplier\index.html">
@@ -88,6 +66,7 @@
     <Content Include="wwwroot\libraries\angular\angular-animate.min.js" />
     <Content Include="wwwroot\libraries\angular\angular-animate.min.js.map" />
     <Content Include="wwwroot\libraries\angular\angular-local-storage.js" />
+    <Content Include="wwwroot\libraries\angular\ui-bootstrap.js" />
     <Content Include="wwwroot\libraries\jquery\jquery.js" />
   </ItemGroup>
   <ItemGroup>
