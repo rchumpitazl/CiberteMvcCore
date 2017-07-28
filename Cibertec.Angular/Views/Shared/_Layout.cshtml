@@ -56,6 +56,12 @@
                            ui-sref="orderitem"
                            ui-sref-active="active">Order Item</a>
                     </li>
+
+                    <li>
+                        <a ng-if="vm.validate()"
+                           ui-sref="csv"
+                           ui-sref-active="active">CSV File</a>
+                    </li>
                 </ul>
             </div>
         </div>

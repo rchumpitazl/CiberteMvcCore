@@ -17,6 +17,8 @@
     <Content Include="wwwroot\app\components\modal\modal.directive" />
     <Content Include="wwwroot\app\components\modal\modal.directive.js" />
     <Content Include="wwwroot\app\home.html" />
+    <Content Include="wwwroot\app\private\csv-viewer\csv.controller.js" />
+    <Content Include="wwwroot\app\private\csv-viewer\index.html" />
     <Content Include="wwwroot\app\private\customer\customer.controller.js" />
     <Content Include="wwwroot\app\private\customer\directives\customer-card\customer-card.html" />
     <Content Include="wwwroot\app\private\customer\directives\customer-card\customer-card.js" />
@@ -62,6 +64,10 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
     <Content Include="wwwroot\app\shared\data.service.js" />
+    <Content Include="wwwroot\images\banner1.svg" />
+    <Content Include="wwwroot\images\banner2.svg" />
+    <Content Include="wwwroot\images\banner3.svg" />
+    <Content Include="wwwroot\images\banner4.svg" />
     <Content Include="wwwroot\libraries\angular\angular-animate.js" />
     <Content Include="wwwroot\libraries\angular\angular-animate.min.js" />
     <Content Include="wwwroot\libraries\angular\angular-animate.min.js.map" />
