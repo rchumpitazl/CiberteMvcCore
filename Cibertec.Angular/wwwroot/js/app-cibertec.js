@@ -439,20 +439,47 @@
         vm.maxSize = 10;
         vm.itemsPerPage = 25;
 
+        vm.notificationHubProxy = {};
+        vm.blockedIds = [];
+        vm.isEdited = false;
+
         //Funciones
         vm.getProduct = getProduct;
         vm.create = create;
         vm.edit = edit;
         vm.delete = productDelete;
         vm.pageChanged = pageChanged;
-        //vm.closeModal = closeModal;
+        vm.closeModal = closeModal;
+
 
         init();
 
         function init() {
             if (!configService.getLogin()) return $state.go('login');
             configurePagination();
+            startSignalR();
         }
+
+        function startSignalR() {
+            $.connection.hub.logging = true;
+            vm.notificationHubProxy = $.connection.notificationHub;
+
+            vm.notificationHubProxy.client.addProductId = function (list) {
+                console.log(list);
+                vm.blockedIds = list;
+            }
+            vm.notificationHubProxy.client.removeProductId = function (list) {
+                console.log(list);
+                vm.blockedIds = list;
+            }
+
+            $.connection.hub.start().done(function () {
+                console.log("Hub Started - success");
+            }).fail(function (error) {
+                console.log(error);
+            });
+        }
+
         function configurePagination() {
             var widthScreen = (window.innerWidth > 0) ? window.innerWidth : screen.width;
             if (widthScreen < 20) vm.maxSize = 5;
@@ -483,11 +510,26 @@
                 );
         }
 
+        function checkId(id) {
+            var index = vm.blockedIds.indexOf(id);
+            return (index > -1);
+        }
+
         function getProduct(id) {
+
+            vm.isEdited = false;
+
+            if (checkId(id))
+            {
+                vm.isEdited = true;
+                return;
+            }
+
             vm.product = null;
             dataService.getData(url + '/product/' + id)
                 .then(function (result) {
                     vm.product = result.data;
+                    vm.notificationHubProxy.server.addProductId(vm.blockedIds, id);
                 },
                 function (error) {
                     vm.product = null;
@@ -550,6 +592,10 @@
             vm.readOnly = false;
             vm.modalFunction = updateProduct;
             vm.isDelete = false;
+
+            if (vm.isEdited === false)
+                angular.element('#modal-container').modal('show');
+
         }
         function detail() {
             vm.modalTitle = 'Created Product';
@@ -567,6 +613,8 @@
             vm.isDelete = true;
         }
         function closeModal() {
+            if (vm.product)
+                vm.notificationHubProxy.server.removeProductId(vm.blockedIds,vm.product.id);
             angular.element('#modal-container').modal('hide');
         }
     }

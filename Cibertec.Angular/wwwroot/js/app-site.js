@@ -74,24 +74,12 @@
             $http.defaults.headers.common.Authorization = 'Bearer ' +
             localStorageService.get('userToken').token;
             configService.setLogin(true);
-            startSignalR();
         } else {
             $state.go('login');
         }
     }
 
-    function startSignalR() {
-        $.connection.hub.logging = true;
-        var notificationHubProxy = $.connection.notificationHub;
-        notificationHubProxy.client.updateProduct = function (id) {
-            console.log(id);
-        }
-        $.connection.hub.start().done(function () {
-            console.log("Hub Started - success");
-        }).fail(function (error) {
-            console.log(error);
-        });
-    }
+    
 })();
 (function () {
     'use strict';

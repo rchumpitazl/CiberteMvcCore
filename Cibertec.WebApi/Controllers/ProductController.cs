@@ -19,6 +19,7 @@ namespace Cibertec.WebApi.Controllers
         }
 
         [Route("count")]
+        [HttpGet]
         public IActionResult GetRowNumber()
         {
             return Ok(_unit.Products.RowNumbers());
